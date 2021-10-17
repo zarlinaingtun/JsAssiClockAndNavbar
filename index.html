@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment Clock N Nav</title>
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <nav id="nav">
+        <ul>
+            <li class="apple"><img src="img/appleicon.png" width="50px" height="50px"/>Apple</li>
+            <li class="orange"><img src="img/orangeicon.png" width="50px" height="50px"/>Orange</li>
+            <li class="grape"><img src="img/grapeicon.png" width="50px" height="50px"/>Grape</li>
+            <li class="watermelon"><img src="img/watermelonicon.png" width="50px" height="50px"/>Watermelon</li>
+            <li class="lemon"><img src="img/lemonicon.png" width="50px" height="50px"/></i>Lemon</li>
+        </ul>
+        <button id="toggle" class="toggle">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </button>
+    </nav>
+
+    <div class="clock-container" id="apple-container">
+        <img src="img/leaf1.png"  class="leave" width="150px" height="150px"/>
+        <div class="clock" id="apple-clock">
+            <div class="twelve">12</div>
+            <div class="three">3</div>
+            <div class="six">6</div>
+            <div class="nine">9</div>
+            <div class="needle hour" id="ahour"></div>
+            <div class="needle minute" id="aminute"></div>
+            <div class="needle second" id="asecond"></div>
+            <div class="circle" id="acircle"></div>
+        </div>
+        <div class="date">12:00 AM</div>
+    </div>
+
+
+    <div class="clock-container hide" id="orange-container">
+        <img src="img/orangeleave1.png"  class="leave" width="150px" height="100px"/>
+        <div class="clock" id="orange-clock">
+            <div class="twelve">12</div>
+            <div class="three">3</div>
+            <div class="six">6</div>
+            <div class="nine">9</div>
+            <div class="needle hour" id="ahour"></div>
+            <div class="needle minute" id="aminute"></div>
+            <div class="needle second" id="asecond"></div>
+            <div class="circle" id="acircle"></div>
+        </div>
+        <div class="date">12:00 AM</div>
+    </div>
+
+    <div class="clock-container hide" id="grape-container">
+        <img src="img/leaf2.png"  class="leave" width="150px" height="100px"/>
+        <div class="clock" id="grape-clock">
+            <div class="twelve">12</div>
+            <div class="three">3</div>
+            <div class="six">6</div>
+            <div class="nine">9</div>
+            <div class="needle hour" id="ahour"></div>
+            <div class="needle minute" id="aminute"></div>
+            <div class="needle second" id="asecond"></div>
+            <div class="circle" id="acircle"></div>
+        </div>
+        <div class="date">12:00 AM</div>
+    </div>
+
+    <div class="clock-container hide" id="watermelon-container">
+        <img src="img/leaf.png"  class="leave" width="150px" height="100px"/>
+        <div class="clock" id="watermelon-clock">
+            <div class="twelve">12</div>
+            <div class="three">3</div>
+            <div class="six">6</div>
+            <div class="nine">9</div>
+            <div class="needle hour" id="ahour"></div>
+            <div class="needle minute" id="aminute"></div>
+            <div class="needle second" id="asecond"></div>
+            <div class="circle" id="acircle"></div>
+        </div>
+        <div class="date">12:00 AM</div>
+    </div>
+
+    <div class="clock-container hide" id="lemon-container">
+        <img src="img/lemonleave.png"  class="leave" width="150px" height="100px"/>
+        <div class="clock" id="lemon-clock">
+            <div class="twelve">12</div>
+            <div class="three">3</div>
+            <div class="six">6</div>
+            <div class="nine">9</div>
+            <div class="needle hour" id="ahour"></div>
+            <div class="needle minute" id="aminute"></div>
+            <div class="needle second" id="asecond"></div>
+            <div class="circle" id="acircle"></div>
+        </div>
+        <div class="date">12:00 AM</div>
+    </div>
+<script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
